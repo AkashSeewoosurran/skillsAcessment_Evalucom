@@ -1,0 +1,99 @@
+body{
+	/*background-position: center;*/
+	font-family: Roboto;
+	color : black;
+}
+
+#name{
+  /* width: 50%;
+  border: 2px solid blue;
+  margin: 0 auto; */
+  text-align: center;
+}
+
+.navbar-default {
+    background-color: #003087;
+    /*border-color: #E7E7E7;*/
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+}
+
+.navbar-default .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar .navbar-collapse .navbar-nav>li >a:link{
+	color: white;
+}
+.navbar .navbar-collapse .navbar-nav>li >a:visited{
+	color: white;
+}
+.navbar .navbar-collapse .navbar-nav>li >a:hover{
+	color: #768692;
+}
+.navbar .navbar-collapse .navbar-nav>li >a:active{
+	color: white;
+}
+
+#imaginary_container {
+    margin-top:30%; /* Don't copy this */
+    margin-bottom: 10%;
+}
+.stylish-input-group .input-form .input-group-addon{
+    background: white !important; 
+}
+.stylish-input-group .input-form .form-control{
+	border-right:0; 
+	box-shadow:0 0 0; 
+	border-color:#ccc;
+}
+.stylish-input-group button{
+    border:0;
+    background:transparent;
+}
+
+.jumbotron{
+	background-image: url("bg-banner.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center; 
+}
+
+.panel-table .panel-body{
+  padding:0;
+}
+
+.panel-table .panel-body .table-bordered{
+  border-style: none;
+  margin:0;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type {
+    text-align:center;
+    width: 100px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:last-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:last-of-type {
+  border-right: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr > th:first-of-type,
+.panel-table .panel-body .table-bordered > tbody > tr > td:first-of-type {
+  border-left: 0px;
+}
+
+.panel-table .panel-body .table-bordered > tbody > tr:first-of-type > td{
+  border-bottom: 0px;
+}
+
+.panel-table .panel-body .table-bordered > thead > tr:first-of-type > th{
+  border-top: 0px;
+}
+
+.panel-table .panel-footer .pagination{
+  margin:0; 
+}
+
